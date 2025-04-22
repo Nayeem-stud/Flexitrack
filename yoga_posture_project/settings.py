@@ -58,8 +58,8 @@ ROOT_URLCONF = "yoga_posture_project.urls"
 
 TEMPLATES = [
     {
-        "BACKEND": "django.template.backends.django.DjangoTemplates",
-        'DIRS':  [os.path.join(BASE_DIR,'assets/templates')],
+       'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, 'Flexitrack', 'assets', 'templates')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
